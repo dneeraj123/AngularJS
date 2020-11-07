@@ -6,6 +6,7 @@
 
 	app.controller('lunchController',lunchController);
 
+	DIController.$inject=['$scope','$filter'];
 	function lunchController($scope)
 	{
 		$scope.items=""
